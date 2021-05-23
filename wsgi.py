@@ -1,6 +1,6 @@
 from db import writeNotes
 from flask import Flask, render_template, request, redirect
-from db import getNotes, writeNotes
+# from db import getNotes, writeNotes
 app = Flask(__name__)
 
 import pymongo
