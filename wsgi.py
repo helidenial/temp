@@ -27,7 +27,7 @@ def writeNote():
     note = request.form.get('note-input')
     writeNotes(note)
     return redirect('/',302)
-if __name__ = "__main__":
+if __name__ == "__main__":
 	app.run()
 
 
